@@ -1,0 +1,44 @@
+.navBar{
+    height: 60px;
+    background-color: rgb(10, 54, 40);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-pass{
+    color: white;
+    font-weight: 900;
+}
+.nav-op{
+    color: rgb(8, 231, 8);
+    font-weight: 900;
+}
+@media (min-width:250px) and (max-width:900px) {
+
+    .navBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-btn{
+        width: 80px;
+        position: absolute;
+        right: 10px;
+    }
+    .head{
+        position: absolute;
+        left: 20px;
+    }
+}
